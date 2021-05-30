@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.rest.model.*;
 @RestController
 public class ProductServiceController {
+     @RequestMapping("/")
+   public String getProd() {
+      System.out.println("Hello World");
+      return "Hello...............";
+   }
+ 
    private static Map<String, Product> productRepo = new HashMap<>();
    static {
       Product honey = new Product();
