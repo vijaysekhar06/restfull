@@ -45,7 +45,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>sbrest</finalName>
+		<finalName>sbre</finalName>
 	</build>
 
 </project>
